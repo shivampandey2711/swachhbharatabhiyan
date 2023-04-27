@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/font-awesome.min.css" rel="stylesheet"/>
+<link href="css/hover.css" rel="stylesheet"/>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+           <div class="container-fluid">
+            <div class="row">
+                 <div class="col-sm-12" style="min-height:100px;font-size:70px;text-align:center;color:blue;font-weight:bold; text-shadow: 1px 2px 2px red;background:">
+                    <marquee direction="right" behavior="alternate" scrollamount="15">SWACHH BHARAT ABHIYAN</marquee>
+                 </div></div>
+               
+               <div class="row">
+                   <div class="col-sm-3" style="color: blue; margin-left: 39%">
+                        <h1><u>DONATION FORM</u></h1>
+                   </div>
+               </div>
+               
+               
+               
+                <div class="row">
+             <form action="codes/donarcode.jsp"  method="post">
+            <div class="col-sm-4" style="min-height: 400px;  background: blue; border: 5px solid black; margin-top: 3%; margin-left: 35%; color: white">
+                  
+            Name
+            <input type="text" name="name" placeholder="enter name" class="form-control"><br>
+             Mobile
+            <input type="number" placeholder="enter mobile"  name="mob" class="form-control"/><br>
+                    
+          Address
+            <input type="text" name="address" placeholder="enter address" class="form-control"><br>
+                    
+           Rupees
+            <input type="number" name="rupee" placeholder="enter rupees" class="form-control"><br>
+           
+           <button type="submit" class="btn btn-success">Submit</button>  
+            </div></form>
+            </div>
+    </body>
+</html>
